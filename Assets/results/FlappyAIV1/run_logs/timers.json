@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1630832822",
+        "python_version": "3.9.1 (tags/v3.9.1:1e5d33e, Dec  7 2020, 17:08:21) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\jerem\\Desktop\\Dev\\Unity\\FlappyBirdAI\\venv\\Scripts\\mlagents-learn config/FlappyTest.yaml --run-id=FlappyAIV1 --force",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.9.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1630832893"
+    },
+    "total": 71.42259689999999,
+    "count": 1,
+    "self": 0.010900999999989835,
+    "children": {
+        "run_training.setup": {
+            "total": 0.15814139999999988,
+            "count": 1,
+            "self": 0.15814139999999988
+        },
+        "TrainerController.start_learning": {
+            "total": 71.25355449999999,
+            "count": 1,
+            "self": 0.0001421999999848822,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 71.2533897,
+                    "count": 1,
+                    "self": 71.2533897
+                },
+                "TrainerController._save_models": {
+                    "total": 2.2600000008310417e-05,
+                    "count": 1,
+                    "self": 2.2600000008310417e-05
+                }
+            }
+        }
+    }
+}
